@@ -14,6 +14,8 @@ public class NameScript : MonoBehaviour
     public GameObject outputField;
     public GameObject reverseTextToggle;
 
+// Pirmās dienas beigas
+
     public void GetText()
     {
         randomIx = Random.Range(0, sampeText.Length);
